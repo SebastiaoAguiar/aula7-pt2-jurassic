@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'jurassica';
+    src: url(fonts/jp_fontJurassicPark.ttf) format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(img/jp_fundoSelva.jpg);
+
+}
+
+nav {
+    display: flex;
+
+}
+
+header {
+    background-image: url(img/jp_topoFundo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 150px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: black 5px 5px 30px;
+
+    .logo {
+        float: left;
+        margin: 30px;
+        margin-top: 30px;
+
+        .logo2 {
+            height: 100px;
+            width: auto;
+        }
+    }
+
+    .ref {
+        float: right;
+        margin: 100px;
+        content: icon;
+        background-image: url(img/jp_menuFundo.jpg);
+        background: url(img/jp_menuFundo.jpg);
+        padding: 10px 60px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        font-weight: bold;
+        font-size: 1.2em;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        transition: all 0.3s ease;
+        border: 2px solid white;
+        margin-top: 55px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        .butao {
+            color: aliceblue;
+            padding: 50px;
+            text-decoration: none;
+        }
+
+        .butao:hover {
+            background-blend-mode: multiply;
+            color: rgb(255, 234, 0);
+        }
+    }
+
+
+}
+
+.titulo {
+    box-shadow: rgb(0, 0, 0) 5px 5px 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    background-image: url(img/jp_menuFundo.jpg);
+
+
+    .titulo2 {
+        font-family: 'jurassica', sans-serif;
+        font-size: 40px;
+        letter-spacing: 4px;
+        word-spacing: 8px;
+        text-transform: uppercase;
+        text-shadow: #ffffff 0px 0px 10px;
+    }
+
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.painell {
+    background-color: #fffefe;
+    float: left;
+    width: 900px;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 30px;
+
+    img {
+        height: 400px;
+        width: auto;
+        float: left;
+        margin: 30px;
+        box-shadow: black 5px 5px 30px;
+        border: 2px solid rgb(0, 0, 0);
+
+    }
+
+    .texto {
+        text-align: center;
+        margin-top: 60px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 20px;
+        color: #000000;
+        text-shadow: #ffffff 0px 0px 10px;
+    }
+
+}
+
+.painelr {
+    background-color: rgb(73, 73, 73);
+
+    float: right;
+    width: 900px;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 30px;
+
+    img {
+        height: 400px;
+        float: right;
+        width: auto;
+        margin: 30px;
+        box-shadow: rgb(255, 255, 255) 5px 5px 30px;
+        border: 2px solid rgb(255, 255, 255);
+
+    }
+
+    .texto {
+        text-align: center;
+        margin-top: 60px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        margin: 20px;
+        text-shadow: #333 1px 1px 1px;
+        text-shadow: #e3e3e3 0px 0px 10px;
+
+    }
+
+}
+
+
+.jurassic-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.jurassic-table th,
+.jurassic-table td {
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.jurassic-table thead {
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.jurassic-table tbody tr:nth-child(even) {
+    background-color: #e3e3e3;
+}
+
+.jurassic-table tbody tr:hover {
+    background-color: #ffe86c;
+    color: black;
+    cursor: default;
+    transition: 0.3s;
+}
+
+.rodape {
+    background-image: url(img/jp_topoFundo.jpg);
+    text-align: center;
+    color: #e3e3e3;
+    height: 100px;
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: #ffffff 0px 0px 10px;
+
+    .texto {
+        margin-top: 10px;
+        text-shadow: #333 2px 2px 0px;
+
+    }
+
+    button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        border: #080808 solid 2px;
+        color: #000000;
+    }
+}
